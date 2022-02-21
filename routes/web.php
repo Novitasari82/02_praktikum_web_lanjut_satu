@@ -21,3 +21,9 @@ Route::get('/', function () {
 Route::get('/', function () {
     echo "Selamat Datang";
 });
+Route::get('/about', function () {
+    echo "NIM : 2041720195, Nama : Novitasari";
+});
+Route::get('/articles/{id}', function ($id) {
+    echo "Halaman Artikel dengan ID ".$id;
+});
