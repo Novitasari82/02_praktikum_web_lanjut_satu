@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 */
  
+Route::get('/', function () {
+    echo "Selamat Datang";
+});
